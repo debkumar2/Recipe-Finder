@@ -3,7 +3,7 @@ import brandImg from "../assets/brandLogo.png";
 import CmnButton from "./CmnButton";
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 w-full py-6  bg-white text-black px-14 flex items-center justify-between">
+    <div className="sticky top-0 left-0 w-full py-4 z-50 bg-white text-black px-14 flex items-center justify-between">
       <div className="w-[180px]">
         <img src={brandImg} alt="" className="w-full ojbect" />
       </div>
