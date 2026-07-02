@@ -3,8 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 import { Leaf, Coffee, Croissant, Utensils, UtensilsCrossed, Cake, CupSoda, ChevronLeft, ChevronRight, Cookie, Fish, Pizza, Apple } from 'lucide-react';
 
-import 'swiper/css';
-import 'swiper/css/navigation';
+
 
 const categories = [
   {

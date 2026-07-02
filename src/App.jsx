@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
 import Categories from './components/Categories'
+import PopularReceipe from './components/PopularReceipe'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Banner />
       <Categories />
+      <PopularReceipe />
     </div>
   )
 }
