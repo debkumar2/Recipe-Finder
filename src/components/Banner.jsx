@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="absolute inset-0 bg-white/70 backdrop-blur-[2px] md:hidden"></div>
 
       <div className="w-full px-6 md:px-14 lg:px-20 flex relative z-10">
-        <div className="w-full md:w-[80%] lg:w-[60%] flex flex-col gap-6 md:gap-8">
+        <div className="w-full md:w-[80%] lg:w-[60%] flex flex-col gap-6 md:gap-8" data-aos="fade-up">
 
           {/* Redesigned Welcome Badge (Premium Glass Pill) */}
           <div className="inline-flex items-center gap-3 bg-white/80 md:bg-white/70 backdrop-blur-md border border-white shadow-sm px-4 py-2 md:px-5 md:py-2.5 rounded-full w-max mt-4">
